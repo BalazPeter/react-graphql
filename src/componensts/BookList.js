@@ -26,5 +26,5 @@ const BookList = (props) => {
     )
 }
 
-export default graphql(getBooksQuery)(BookList);
+export default graphql(getBooksQuery)(BookList);  /* when you have to pass single query */
 
